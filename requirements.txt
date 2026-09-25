@@ -1,0 +1,6 @@
+## Consolidated requirements for all three modules (each module also has its own requirements.txt).
+## For a smaller CPU-only torch install, run first:
+##   pip install torch --index-url https://download.pytorch.org/whl/cpu
+-r data_pipeline/requirements.txt
+-r analytics/requirements.txt
+-r support_assistant/requirements.txt
